@@ -1,0 +1,12 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3300,
+    "username": "root",
+    "password": "Duong3019@@@@",
+    "database": "demo",
+    "entities": ["dist/**/*.entity{ .ts,.js}"],
+    "synchronize": true,
+    "migrationsTableName": "migrations_history",
+    "migrationsRun": true
+}
